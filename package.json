@@ -1,0 +1,26 @@
+{
+  "name": "penguin",
+  "version": "1.0.0",
+  "author": "Dan Atanasov",
+  "penguin": {
+    "languages": [
+      "en"
+    ],
+    "components": {
+      "Inplace": "penguin-inplace",
+      "SaveButton": "penguin-save-button"
+    }
+  },
+  "scripts": {
+    "serve": "penguin serve -v html",
+    "prebuild": "penguin pack -v html",
+    "build": "penguin build"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "penguin-inplace": "0.0.3",
+    "penguin-save-button": "0.0.2",
+    "penguin.js": "^1.0.0-rc.22",
+    "redux": "^3.7.2"
+  }
+}
