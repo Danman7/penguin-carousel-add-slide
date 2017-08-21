@@ -2,8 +2,6 @@ node_modules/
 .penguin/
 data/
 npm-debug.log
-pages/*.html
-pages/*.js
 objects/*.html
 objects/*.js
 static/objects
