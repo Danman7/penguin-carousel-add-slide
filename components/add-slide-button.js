@@ -17,8 +17,6 @@ export function mount(ctx, props, el) {
 
     class AddSlideButton extends React.Component {
         addNewSlide() {
-            navItemMount(ctx, {slides, carousel}, $(carousel + ' .carousel-indicators'));
-            // slideMount(ctx, {slides, carousel}, $(carousel + ' .carousel-inner'));
             slides += 1;
         }
 
