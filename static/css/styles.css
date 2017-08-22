@@ -1,0 +1,33 @@
+.btn {
+    padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+    border-radius: 10px;
+    font-size: 25px;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #3498DB;
+    border-bottom: 5px solid #2980B9;
+    text-shadow: 0px -2px #2980B9;
+    outline: none;
+}
+
+.btn:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    border-bottom: 1px solid;
+}
+
+.saveBtn,
+.addSlideBtn {
+    position: absolute;
+    top: 10px;
+}
+
+.saveBtn {
+    left: 10px;
+}
+
+.addSlideBtn {
+    right: 10px;
+}
