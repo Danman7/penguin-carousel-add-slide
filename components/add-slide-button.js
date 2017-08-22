@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {mount as navItemMount} from './nav-item';
-import {mount as slideMount} from './slide';
 
 export function render() {
     return { replace: '' }

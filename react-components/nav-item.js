@@ -8,9 +8,3 @@ export default class NavItem extends React.Component {
         return (<li className={slideNo === 0 ? 'active' : ''} data-target={carousel} data-slide-to={slideNo}></li>);
     }
 }
-
-export function render() {
-    return { replace: '' }
-}
-
-export function mount(ctx, props, el) {console.log('nav item mounted');}
