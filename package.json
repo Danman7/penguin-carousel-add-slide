@@ -12,7 +12,7 @@
     }
   },
   "scripts": {
-    "serve": "penguin serve -v html",
+    "serve": "penguin serve --middleware [ ./middleware ] -v html",
     "prebuild": "penguin pack -v html",
     "build": "penguin build"
   },
@@ -21,6 +21,8 @@
     "penguin-inplace": "0.0.3",
     "penguin-save-button": "0.0.2",
     "penguin.js": "^1.0.0-rc.22",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
     "redux": "^3.7.2"
   }
 }
